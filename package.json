@@ -10,13 +10,11 @@
 	"bugs": "https://github.com/aslilac/ladder/issues",
 	"type": "commonjs",
 	"main": "./target/main.js",
-	"module": "./target/module/main.d.ts",
+	"module": "./target/module/main.js",
 	"types": "./target/main.d.ts",
 	"exports": {},
 	"bin": {},
-	"files": [
-		"target/**"
-	],
+	"files": ["target/**"],
 	"dependencies": {},
 	"devDependencies": {
 		"@mckayla/prettier": "^1.0.1",
